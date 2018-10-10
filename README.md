@@ -16,7 +16,7 @@ Works via the HTML5 MediaRecorder API ([MediaRecorder](https://caniuse.com/#sear
 
 ```js
 
-<ReactMic
+<ReactRecord
   record={boolean}         // defaults -> false.  Set to true to begin recording
   className={string}       // provide css class name
   onStop={function}        // callback to execute when audio stops recording
@@ -37,14 +37,14 @@ Works via the HTML5 MediaRecorder API ([MediaRecorder](https://caniuse.com/#sear
   <button onClick={boolean} type="button">
     Stop
   </button>
-<ReactMic/>
+<ReactRecord/>
 
 ```
 
 ## Example
 
 ```js
-import ReactMic from 'react-mic';
+import ReactRecord from 'react-record';
 
 export class Example extends React.Component {
   constructor(props) {
@@ -90,7 +90,7 @@ export class Example extends React.Component {
     const { isRecording } = this.state;
     return (
       <div className="record-mic">
-        <ReactMic
+        <ReactRecord
           record={isRecording}
           onStop={this.onStop}
           onStart={this.onStart}
@@ -114,7 +114,7 @@ export class Example extends React.Component {
           <button onClick={this.stopRecording} type="button">
             Stop
           </button>
-        </ReactMic>
+        </ReactRecord>
       </div>
     );
   }
