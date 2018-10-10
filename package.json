@@ -1,6 +1,6 @@
 {
   "name": "react-record",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple React Record",
   "main": "lib/index.js",
   "jsnext:main": "es/index.js",
