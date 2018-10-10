@@ -4,13 +4,13 @@ Works via the HTML5 MediaRecorder API ([MediaRecorder](https://caniuse.com/#sear
 
 ## Installation
 
-`npm install --save react-mic` //TODO
+`npm install --save react-record`
 
 ## Features
 
 - Record audio from microphone
 - Save audio as BLOB
-- saved as type `audio/wav`
+- saved as type `audio/mp3`
 
 ## Usage
 
