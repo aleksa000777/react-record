@@ -61,7 +61,7 @@ export default class Demo extends Component {
     return(
         <div>
           <h1>React-Mic</h1>
-          <p><a href="https://github.com/hackingbeauty/react-mic">Documentation</a></p>
+          <p><a href="https://github.com/aleksa000777/react-record">Documentation</a></p>
           <ReactRecord
             record={isRecording}
             audioBitsPerSecond= {128000}
