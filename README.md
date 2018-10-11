@@ -7,6 +7,9 @@ Supports Chrome, Firefox, Safari.
 
 `npm install --save react-record`
 
+## Demo
+
+[Demo](https://aleksa000777.github.io/react-record/)
 ## Features
 
 - Record audio from microphone
