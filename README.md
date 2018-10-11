@@ -1,11 +1,15 @@
 # React-record
 Simple React Record
 Works via the HTML5 MediaRecorder API ([MediaRecorder](https://caniuse.com/#search=MediaRecorder)).
+Supports Chrome, Firefox, Safari.
 
 ## Installation
 
 `npm install --save react-record`
 
+## Demo
+
+[Demo](https://aleksa000777.github.io/react-record/)
 ## Features
 
 - Record audio from microphone
