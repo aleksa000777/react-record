@@ -1,6 +1,7 @@
 # React-record
 Simple React Record
 Works via the HTML5 MediaRecorder API ([MediaRecorder](https://caniuse.com/#search=MediaRecorder)).
+Supports Chrome, Firefox, Safari.
 
 ## Installation
 
