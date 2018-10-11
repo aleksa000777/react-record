@@ -1,5 +1,5 @@
 /*!
- * react-record v1.0.0 - https://github.com/aleksa000777/React-record#readme
+ * react-record v1.0.2 - https://github.com/aleksa000777/React-record#readme
  * ISC Licensed
  */
 (function webpackUniversalModuleDefinition(root, factory) {
